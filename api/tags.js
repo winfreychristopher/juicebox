@@ -13,7 +13,7 @@ tagsRouter.get('/', async(request, response) => {
     const tags = await getAllTags();
 
     response.send({
-        tags:[]
+        tags
     });
 });
 
